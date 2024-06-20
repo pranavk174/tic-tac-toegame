@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+  
+  .grad {
+    background-image: radial-gradient(farthest-side at 140% 10%, red, rgb(54, 20, 38), black);
+    background-size: cover;
+
+  }
+
+  h3{
+    backdrop-filter:blur(3px);
+  }
+
+  .game-box{
+    aspect-ratio:1/1;
+    width:300px;
+    max-width:300px;
+    backdrop-filter:blur(10px);
+    border-radius:15px;
+    padding:15px;
+  }
+
+  .box{
+   display:grid;
+   justify-items:center;
+   align-items:center;
+  cursor:pointer;
+  padding: 0px;
+  font-size:20px;
+  
+    
+  }
+
+  .box1{
+    border-bottom: 1px solid white ;
+    border-right:1px solid white;
+  }
+  .box2{
+    border-bottom: 1px solid white;
+    border-right:1px solid white;
+  }
+  .box3{
+    border-bottom: 1px solid white;
+   
+  }
+  .box4{
+    border-bottom: 1px solid white;
+    border-right:1px solid white;
+  }
+  .box5{
+    border-bottom: 1px solid white;
+    border-right:1px solid white;
+  }
+  .box6{
+    border-bottom: 1px solid white;
+   
+  }
+  .box7{
+    
+    border-right:1px solid white;
+  }
+  .box8{
+    
+    border-right:1px solid white;
+  }
+  
+  .btn{
+    display:none;
+  }
+  .btn.active{
+    display:flex;
+  }
+
+  .win{
+    background: green;
+    font-weight: bold;
+  }
